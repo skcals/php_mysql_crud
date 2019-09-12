@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             <?php echo $name_err; ?>
         </span>
     </div>
-    <div class="form-group has-warning">
+    <div class="form-group">
         <label for="address">Address</label>
         <textarea name="address" class="form-control" rows=4><?php echo $address; ?></textarea>
         <span class="text-danger">
@@ -101,3 +101,4 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     </div>
 
 </form>
+<?php include "includes/footer.php; ?>
